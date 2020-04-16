@@ -1,4 +1,4 @@
-(def +version+ "0.1.15")
+(def +version+ "0.1.16")
 
 (set-env!
   :source-paths #{"src"}
@@ -16,7 +16,7 @@
 
 (task-options!
   push {:ensure-branch nil}
-  pom {:project     'tolitius/envoy
+  pom {:project     'm4ldonado/envoy
        :version     +version+
        :description "Fork of toilitius/envoy that uses newer http-kit"
        :url         "https://github.com/tolitius/envoy"
